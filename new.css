@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.djimg {
+    background-image: linear-gradient(120deg, blue, red);
+    padding: 20px;
+}
+
+.djimg>h2,
+.djimg>p {
+    text-align: center;
+    color: white;
+}
+
+.pushdown {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.as {
+    text-align: center;
+}
+
+i {
+    columns: white;
+    margin-left: 150px;
+}
+
+.imgs {
+    background-image: url('./imgs/canva.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.push-d {
+    margin-bottom: 65px;
+    margin-left: 60px;
+}
+
+.handel>img {
+    width: 263px;
+    box-shadow: 3px 4px 5px rgb(248, 226, 226), 3px 4px 5px rgb(53, 48, 48);
+    margin-bottom: 40px;
+}
+
+.imgs>p,
+.imgs>h4 {
+    text-align: center;
+    color: white;
+}
+
+.push-ud {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.push-ud>h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.a {
+    color: rgb(255, 0, 0);
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.aa {
+    color: #4267B2;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.aaa {
+    color: #1da1f2;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.a:hover {
+    text-shadow: 15px 13px 5px rgb(221, 20, 20);
+    color: rgb(255, 0, 0);
+    outline: none;
+    cursor: pointer;
+}
+
+.aa:hover {
+    text-shadow: 15px 13px 5px rgb(49, 50, 117);
+    color: #4267B2;
+    outline: none;
+    cursor: pointer;
+}
+
+.aaa:hover {
+    text-shadow: 15px 13px 15px rgb(49, 50, 117);
+    color: #1da1f2;
+    outline: none;
+    cursor: pointer;
+}
+
+.color-dark {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.color-dark>h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.as {
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,
+h4,
+h3 {
+    font-family: 'Grandstander', cursive;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+
+@media(max-width:550px) {
+    .handel>img {
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    .push-d {
+        margin-left: 0px;
+        margin-right: 200px;
+    }
+    .ps {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .a {
+        margin-left: 130px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .aa {
+        margin-left: 130px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .aaa {
+        margin-left: 130px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width:1000px) {
+    .djimg hr {
+        width: 500px;
+        margin-left: 400px;
+    }
+    i {
+        margin-left: 160px;
+    }
+    .imgs hr {
+        width: 500px;
+        margin-left: 400px;
+    }
+}
