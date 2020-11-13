@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .djimg {
@@ -132,7 +133,22 @@ p {
     font-size: 17px;
 }
 
-@media(max-width:550px) {
+.html {
+    color: rgb(240, 102, 11);
+}
+
+.css {
+    color: rgb(4, 0, 255);
+}
+
+.js {
+    color: rgb(228, 228, 11);
+}
+
+
+/********mobile*/
+
+@media(max-width:768px) {
     .handel>img {
         margin-bottom: 30px;
         margin-left: 30px;
@@ -162,13 +178,61 @@ p {
     }
 }
 
-@media(min-width:1000px) {
+
+/*****tablets ipads*/
+
+@media (min-width:768px) and (max-width:1024px) {
+    .djimg hr {
+        width: 330px;
+        margin-left: 200px;
+    }
+    i {
+        margin-left: 95px;
+    }
+    .ps img {
+        width: 200px;
+    }
+    .imgs hr {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .handel>img {
+        margin-bottom: 30px;
+        margin-left: 40px;
+        width: 200px;
+    }
+    .push-d {
+        margin-left: 0px;
+        margin-right: 60px;
+    }
+    .a {
+        margin-left: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .aa {
+        margin-left: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .aaa {
+        margin-left: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/********desktop*/
+
+@media(min-width:1024px) {
     .djimg hr {
         width: 500px;
         margin-left: 400px;
     }
     i {
-        margin-left: 160px;
+        margin-left: 165px;
+        color: orange;
     }
     .imgs hr {
         width: 500px;
